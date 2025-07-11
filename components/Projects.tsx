@@ -45,8 +45,17 @@ const Projects = () => {
 
   return (
     <section id="projects" className="mb-16 scroll-mt-20">
-      <h2 className="text-4xl font-bold mb-8 text-center">Projects</h2>
-      <div className="relative max-w-7xl mx-auto">
+    <div className="flex justify-between items-center mb-8">
+      <h2 className="text-4xl font-bold text-center w-full">Projects</h2>
+      <a
+        href="https://drive.google.com/file/d/1nrQaGbgFeUZUG6cu9NEM8gHebMufC_db/view?usp=sharing"
+        className="text-sm text-blue-500 hover:underline ml-2 whitespace-nowrap"
+        target="_blank"
+      >
+        <b>Download My Full Portfolio</b>
+      </a>
+    </div>
+      <div className="relative max-w-10xl mx-auto">
 
         {/* Left Arrow Button */}
         {isScrolled && (
@@ -82,9 +91,6 @@ const Projects = () => {
           </button>
         )}
 
-        {/* Gradient Fades */}
-        <div className="absolute top-0 left-0 h-full w-16 bg-gradient-to-r from-white dark:from-gray-900 pointer-events-none"></div>
-        <div className="absolute top-0 right-0 h-full w-16 bg-gradient-to-l from-white dark:from-gray-900 pointer-events-none"></div>
       </div>
     </section>
   );

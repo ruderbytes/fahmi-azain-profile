@@ -5,10 +5,7 @@ const About = () => (
       {/* Widen the container and increase text size */}
       <div className="max-w-5xl mx-auto text-xl text-center">
         <p className="mb-4">
-          I am a dedicated and results-oriented engineer with a strong foundation in software development...
-        </p>
-        <p>
-          My academic and project work has allowed me to dive deep into areas like deep learning...
+        I'm an Software Engineer with over 5 years of experience, focusing on developing reliable and scalable mobile applications. I have a strong interest in solving technical challenges, designing simple and intuitive UI/UX, and continuously learning to keep up with the latest technologies.
         </p>
       </div>
     </section>

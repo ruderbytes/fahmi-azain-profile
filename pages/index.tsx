@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
       <Head>
-        <title>Shrivaths Shyam - AI & Software Engineer</title>
-        <meta name="description" content="Personal portfolio of Shrivaths Shyam, an AI and Software Engineer specializing in machine learning and scalable software." />
+        <title>Fahmi Azain - Software Engineer</title>
+        <meta name="description" content="Personal portfolio of Fahmi Azain, an Software Engineer specializing in machine learning and scalable software." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

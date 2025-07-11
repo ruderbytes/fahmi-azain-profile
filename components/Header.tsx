@@ -24,7 +24,7 @@ const Header = () => {
         `}
       >
         <nav className="container mx-auto px-6 flex justify-between items-center">
-          <a href="#home" className="text-xl font-bold">Shrivaths Shyam</a>
+          <a href="#home" className="text-xl font-bold">Fahmi Azain</a>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
