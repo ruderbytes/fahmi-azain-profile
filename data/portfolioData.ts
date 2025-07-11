@@ -14,6 +14,7 @@ export interface Project {
       date: '2024 - Present',
       tags: ['Kotlin', 'Google Maps', 'CleverTap', 'Agora', 'Firebase', 'Git', 'API'],
       description: 'An Android social media app developed collaboratively with the team at Appsolutive, featuring text, image, video, and voice note posts, as well as live streaming. Built using Kotlin with MVVM architecture, integrated with Firebase Cloud Messaging, Crashlytics, and RESTful API communication for data exchange.',
+      longDescription: '',
       link: 'https://play.google.com/store/apps/details?id=com.langaroo',
     },
     {
@@ -29,6 +30,7 @@ export interface Project {
       date: '2024',
       tags: ['React Native', 'TypeScript', 'LiveKit', 'Firebase', 'Git', 'API'],
       description: 'A Android app designed to guide Umrah and Hajj pilgrims, developed using React Native. The app leverages various tools such as LiveKit for live streaming, cloud messaging, Google Maps, and integrates seamlessly with RESTful APIs.',
+      longDescription: '',
       link: 'https://play.google.com/store/apps/details?id=com.tawafin',
     },
     {
